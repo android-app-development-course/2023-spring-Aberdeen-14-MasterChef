@@ -1,1 +1,6 @@
 # 2023-spring-Aberdeen-14-MasterChef
+The design concept of Master Chef is to use a simple and clear interface to provide users with teaching and guiding services about food preparation.
+
+It can provide users with a series of food production help, such as food related search, query the production method, provide the corresponding production ratio and the required ingredients reference, and provide users with teaching videos, and can provide users with quick links to raw materials, users can quickly buy the required ingredients, also can provide users with common ingredients combination as a reference...... In addition, users can also select dishes according to their favorite cuisines and taste requirements. Users will also be allowed to upload their own "exclusive recipes" in the process of making the app. The app will also open up community services for users to build a communication platform, users can comment on the community, exchange experiences.
+
+For example, if the user wants to obtain potato-related food dishes, input and confirm in the interactive interface, the app will provide potato-related food, such as potato sparerib, potato braised beef brisket, etc., select flavor cuisines can be further screened, further confirm the dishes after clicking, you can see detailed production steps and methods, and click related links to buy raw materials...

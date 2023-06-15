@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:id="@+id/appName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Master Chef"
+        android:textColor="#2196F3"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="185dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <EditText
+        android:id="@+id/newUserName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:hint="新用户名"
+        android:maxLines="1"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/bg_username"
+        />
+
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:hint="新密码"
+        android:maxLines="1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_username"
+        android:inputType="textPassword"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/newRegister"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#B5FFFF"
+            android:text="注册"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
